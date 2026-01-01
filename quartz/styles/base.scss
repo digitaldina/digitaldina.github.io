@@ -349,7 +349,9 @@ blockquote {
   transition: border-color 0.2s ease;
 }
 
-h1,
+h1 {
+  font-weight: $boldWeight;
+}
 h2,
 h3,
 h4,
@@ -393,8 +395,8 @@ h6 {
 
 // typography improvements
 h1 {
-  font-size: 1.75rem;
-  margin-top: 2.25rem;
+  font-size: 3.5rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
