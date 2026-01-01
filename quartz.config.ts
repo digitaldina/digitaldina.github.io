@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "digitaldina",
+    pageTitle: "digital dina",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         title: "Doto",
-        header: "Urbanist",
+        header: "Courier Prime",
         body: "Courier Prime",
         code: "IBM Plex Mono",
       },

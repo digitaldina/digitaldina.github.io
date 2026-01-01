@@ -4,13 +4,11 @@
 @use "./syntax.scss";
 @use "./callouts.scss";
 
-
-
 html {
   scroll-behavior: smooth;
-  text-size-adjust: 100%;
+  text-size-adjust: none;
   overflow-x: hidden;
-  width: 100%;
+  width: 100vw;
 }
 
 body {
@@ -195,37 +193,25 @@ a {
     grid-template-areas: #{map.get($desktopGrid, templateAreas)};
 
     @media all and ($tablet) {
-      // grid-template-columns: #{map.get($tabletGrid, templateColumns)};
-      // grid-template-rows: #{map.get($tabletGrid, templateRows)};
-      // column-gap: #{map.get($tabletGrid, columnGap)};
-      // row-gap: #{map.get($tabletGrid, rowGap)};
-      // grid-template-areas: #{map.get($tabletGrid, templateAreas)};
-      grid-template-columns: 1fr; // Force single column
-      grid-template-areas: "grid-header" "grid-center" "grid-footer"; // Linear stack
-      padding: 0 1rem; // Ensure internal breathing room
-      margin: 0;
-      width: 100%;
+      grid-template-columns: #{map.get($tabletGrid, templateColumns)};
+      grid-template-rows: #{map.get($tabletGrid, templateRows)};
+      column-gap: #{map.get($tabletGrid, columnGap)};
+      row-gap: #{map.get($tabletGrid, rowGap)};
+      grid-template-areas: #{map.get($tabletGrid, templateAreas)};
     }
     @media all and ($mobile) {
-      // grid-template-columns: #{map.get($mobileGrid, templateColumns)};
-      // grid-template-rows: #{map.get($mobileGrid, templateRows)};
-      // column-gap: #{map.get($mobileGrid, columnGap)};
-      // row-gap: #{map.get($mobileGrid, rowGap)};
-      // grid-template-areas: #{map.get($mobileGrid, templateAreas)};
-      grid-template-columns: 1fr; // Force single column
-      grid-template-areas: "grid-header" "grid-center" "grid-footer"; // Linear stack
-      padding: 0 1rem; // Ensure internal breathing room
-      margin: 0;
-      width: 100%;
+      grid-template-columns: #{map.get($mobileGrid, templateColumns)};
+      grid-template-rows: #{map.get($mobileGrid, templateRows)};
+      column-gap: #{map.get($mobileGrid, columnGap)};
+      row-gap: #{map.get($mobileGrid, rowGap)};
+      grid-template-areas: #{map.get($mobileGrid, templateAreas)};
     }
 
     @media all and not ($desktop) {
       padding: 0 1rem;
     }
     @media all and ($mobile) {
-      padding: 1rem;
-      width: 100%;
-      box-sizing: border-box;
+      margin: 0 auto;
     }
 
     & .sidebar {
@@ -331,8 +317,8 @@ input[type="checkbox"] {
   border-radius: 3px;
   background-color: var(--light);
   position: relative;
-  margin-inline-end: 0.5rem;
-  margin-inline-start: 0;
+  margin-inline-end: 0.2rem;
+  margin-inline-start: -1.4rem;
   appearance: none;
   width: 16px;
   height: 16px;
@@ -354,9 +340,6 @@ input[type="checkbox"] {
       transform: rotate(45deg);
     }
   }
-  @media all and ($mobile) {
-    margin-left: 0.5rem; 
-  }
 }
 
 blockquote {
@@ -366,9 +349,7 @@ blockquote {
   transition: border-color 0.2s ease;
 }
 
-h1 {
-  font-weight: $boldWeight;
-}
+h1,
 h2,
 h3,
 h4,
@@ -412,8 +393,8 @@ h6 {
 
 // typography improvements
 h1 {
-  font-size: 2rem;
-  margin-top: 2rem;
+  font-size: 1.75rem;
+  margin-top: 2.25rem;
   margin-bottom: 1rem;
 }
 
