@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        title: "Doto Bold",
+        title: "Doto",
         header: "Urbanist",
         body: "Courier Prime",
         code: "IBM Plex Mono",
