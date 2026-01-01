@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+  position: relative;
+  width: 100%;
+}
