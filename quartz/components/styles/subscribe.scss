@@ -3,7 +3,9 @@
   padding: 1.5rem;
   border: 1px solid var(--lightgray);
   border-radius: 8px;
-  background-color: var(--light); // Follows Quartz background
+  background-color: var(--light);
+  max-width: 100%;
+  box-sizing: border-box;
 
   h3 {
     margin-top: 0;
@@ -17,11 +19,13 @@
 
   form {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin-top: 1rem;
 
     input[type="email"] {
-      flex-grow: 1;
+      flex: 1 1 150px; 
+      min-width: 0;
       padding: 0.6rem;
       border: 1px solid var(--lightgray);
       border-radius: 5px;
@@ -34,6 +38,7 @@
     }
 
     button {
+      flex: 1 0 auto;
       padding: 0.6rem 1.2rem;
       background-color: var(--secondary);
       color: var(--light);
@@ -41,6 +46,7 @@
       border-radius: 5px;
       cursor: pointer;
       font-weight: bold;
+      white-space: nowrap;
 
       &:hover {
         background-color: var(--tertiary);
