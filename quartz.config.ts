@@ -1,6 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-
+import { i18n } from "./quartz/i18n"
 /**
  * Quartz 4 Configuration
  *
