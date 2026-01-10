@@ -5,7 +5,28 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+    provider: 'giscus',
+    options: {
+      // from data-repo
+      repo: 'digitaldina/digitaldina.github.io',
+      // from data-repo-id
+      repoId: 'R_kgDOPTO6bQ',
+      // from data-category
+      category: 'Announcements',
+      // from data-category-id
+      categoryId: 'DIC_kwDOPTO6bc4C0yx_',
+      // from data-lang
+      lang: 'en',
+      mapping: 'pathname',
+      reactionsEnabled: true,
+      inputPosition: 'top',
+      lightTheme: "light-theme", // corresponds to light-theme.css in quartz/static/giscus/
+      darkTheme: "dark-theme"
+    }
+  }),
+  ],
   footer: Component.Footer({
     links: {
       "github": "https://github.com/digitaldina",

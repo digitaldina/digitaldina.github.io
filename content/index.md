@@ -1,6 +1,7 @@
 ---
 title: welcome to my web-log!
 date: 2026-01-05
+comments: false
 ---
 &nbsp;&nbsp;hi! I'm Dina Elhanan, aka. digitaldina (stylized: d1g1t4ld1n4). Established in 2014 through a [tumblr page](https://digitaldina.tumblr.com) and later in 2016 on [blogspot](https://digitaldina.blogspot.com).
 
