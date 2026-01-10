@@ -28,7 +28,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.Subscribe(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -43,6 +42,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
+    Component.Subscribe(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),

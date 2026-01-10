@@ -19,3 +19,4 @@ function Subscribe({ displayClass }: QuartzComponentProps) {
 
 Subscribe.css = styles
 export default (() => Subscribe) satisfies QuartzComponentConstructor
+
