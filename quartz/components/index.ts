@@ -23,6 +23,7 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+import Subscribe from "./Subscribe"
 
 export {
   ArticleTitle,
@@ -41,6 +42,7 @@ export {
   Graph,
   Backlinks,
   Search,
+  Subscribe,
   Footer,
   DesktopOnly,
   MobileOnly,

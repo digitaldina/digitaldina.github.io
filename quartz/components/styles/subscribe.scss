@@ -1,0 +1,57 @@
+.subscribe-container {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background-color: var(--light); // Follows Quartz background
+
+  h3 {
+    margin-top: 0;
+    color: var(--dark);
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: var(--gray);
+  }
+
+  form {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+
+    input[type="email"] {
+      flex-grow: 1;
+      padding: 0.6rem;
+      border: 1px solid var(--lightgray);
+      border-radius: 5px;
+      background: var(--light);
+      color: var(--dark);
+      
+      &:focus {
+        outline: 2px solid var(--secondary);
+      }
+    }
+
+    button {
+      padding: 0.6rem 1.2rem;
+      background-color: var(--secondary);
+      color: var(--light);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+
+      &:hover {
+        background-color: var(--tertiary);
+      }
+    }
+  }
+}
+
+// Adjust for mobile
+@media all and (max-width: 600px) {
+  .subscribe-container form {
+    flex-direction: column;
+  }
+}
