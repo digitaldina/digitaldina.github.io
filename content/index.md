@@ -3,11 +3,13 @@ title: welcome to my web-log!
 date: 2026-01-05
 comments: false
 ---
-&nbsp;&nbsp;hi! I'm Dina, aka. digitaldina (stylized: d1g1t4ld1n4). Established in 2014 through a [tumblr page](https://digitaldina.tumblr.com) and later in 2016 on [blogspot](https://digitaldina.blogspot.com).
+&nbsp;&nbsp;Hi! I'm Dina, aka. digitaldina (stylized: d1g1t4ld1n4). Established in 2014 through a [tumblr page](https://digitaldina.tumblr.com) and later in 2016 on [blogspot](https://digitaldina.blogspot.com). For those interested, here's my resume c:
 
 &nbsp;&nbsp;digitaldina is my online persona/presence centered around technology, music, and writing on politics & culture. 
 
 &nbsp;&nbsp;Published writer on politics, culture, music in various zines as well as published researcher on nuclear engineering, [musician](https://soundcloud.com/digitaldina), McMaster University B.Engineering Physics Graduate Class of '25, Rebelle Zine web design volunteer, nuclear engineering research assistant at the University of Sharjah in the UAE, and open-source contributor - every blue moon (when I really have to) I code. 
+
+>&nbsp;&nbsp;At my current role as a Research Assistant at the University of Sharjah's Nuclear Systems, Simulation, and Safety Group, I'm exploring digitization in nuclear plants, contributing to developing tailored training programs for various government & academic stakeholders, and contributing to research that bridges the gap between innovations in the nuclear industry and regulatory/decision-making bodies internationally. 
 
 &nbsp;&nbsp;You'll find my articles on here, I might start uploading pictures in a photobook as well. I really like various types of tea (currently having karak, i enjoy a good jasmine or chamomile as well). 
 
