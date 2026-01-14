@@ -3,15 +3,13 @@ title: Dina Elhanan
 date: 2026-01-14
 comments: false
 ---
-# Dina Elhanan
 >Engineering Physicist · Nuclear & Energy Systems · Intelligent Control
 
 Canadian engineering physics graduate working at the intersection of **nuclear energy, control systems, and applied AI**. Experience spans **nuclear power plant simulation, safety-critical control, embedded systems, and regulatory-facing research**. Motivated by building reliable, real-world infrastructure where physics, software, and public trust meet.
 
 Based in the UAE  
 LinkedIn: https://www.linkedin.com/in/dina-elhanan-66b6b0136  
-Github: https://github.com/digitaldina
-Full CV: 
+Github: https://github.com/digitaldina <br>Full CV: [[master-resume.pdf]]
 
 ---
 ## Interests
@@ -45,7 +43,7 @@ Focused on **nuclear power systems, control engineering, and energy infrastructu
 *Joseph & Amy IP Award for Innovation & Feasibility*
 
 ---
-## Technical Core
+## Technical Skills
 **Nuclear & Control:** NPP systems, SCADA, PLCs, PID, OPC-UA  
 **Software:** Python, C/C++, Java, TypeScript, SQL  
 **Modeling & Tools:** MATLAB/Simulink, FlexPDE, Ignition SCADA, Altium, ANSYS  

@@ -3,7 +3,7 @@ title: welcome to my web-log!
 date: 2026-01-05
 comments: false
 ---
-&nbsp;&nbsp;Hi! I'm Dina, aka. digitaldina (stylized: d1g1t4ld1n4). Established in 2014 through a [tumblr page](https://digitaldina.tumblr.com) and later in 2016 on [blogspot](https://digitaldina.blogspot.com). For those interested, here's my resume c:
+&nbsp;&nbsp;Hi! I'm Dina, aka. digitaldina (stylized: d1g1t4ld1n4). Established in 2014 through a [tumblr page](https://digitaldina.tumblr.com) and later in 2016 on [blogspot](https://digitaldina.blogspot.com). For those interested, here's my [[resume]] c:
 
 &nbsp;&nbsp;digitaldina is my online persona/presence centered around technology, music, and writing on politics & culture. 
 
