@@ -9,7 +9,7 @@ Canadian engineering physics graduate working at the intersection of **nuclear e
 
 Based in the UAE  
 LinkedIn: https://www.linkedin.com/in/dina-elhanan-66b6b0136  
-Github: https://github.com/digitaldina <br>Full CV: [[master-resume.pdf]]
+Github: https://github.com/digitaldina <br>Full CV: [[content/assets/master-resume.pdf]]
 
 ---
 ## Interests
