@@ -1,5 +1,5 @@
 ---
-title: Dina Elhanan
+title: professional
 date: 2026-01-14
 comments: false
 ---

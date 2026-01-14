@@ -1,5 +1,5 @@
 ---
-title: welcome to my web-log!
+title: creative
 date: 2026-01-05
 comments: false
 ---
