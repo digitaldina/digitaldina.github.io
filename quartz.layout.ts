@@ -22,7 +22,7 @@ export const sharedPageComponents: SharedLayout = {
       mapping: 'pathname',
       reactionsEnabled: true,
       inputPosition: 'top',
-      lightTheme: "dark-theme", // corresponds to light-theme.css in quartz/static/giscus/
+      lightTheme: "light-theme", // corresponds to light-theme.css in quartz/static/giscus/
       darkTheme: "dark-theme"
     }
   }),
