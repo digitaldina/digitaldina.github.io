@@ -16,7 +16,7 @@ Posters around the Centro Congressi Lingotto showcasing FIAT’s history, and th
 
 Other sessions were of great benefit in terms of learning more about the current state of reactor physics, and were also a joy to experience in real life to get to know the presenters as the conference went on. My favourites included Dr. Akio Yamamoto’s talk about the future of reactor simulation codes & nuclear education, Dr. Walid Metwally’s presentation on the IAEA’s collaboration with academic institutions (including Uos!) to develop a Nuclear Security Education program, the technical session detailing the elegant solution by Dr. Roberto Ponciroli et al at Argonne National Laboratory using Greene’s theorem to solve the challenge of accurately reconstructing core power distributions for reactor designs where in-core sensors may not be viable [1]. The simplicity & robustness of this method blew me away, as well as Logan Burnett et al at MIT & the University of Michigan who reconstructed a full CAD model of a Westinghouse PWR using only publicly available information to study in core flow field reconstruction using CNNs for digital twins! [2] The dedication of their team to comb through and extrapolate on the (relatively minimal) information available about this reactor design to make such a high fidelity simulation was inspiring. I’ve linked the related papers below for those interested in learning more.
 
-[1] https://arxiv.org/pdf/2505.09766
+[1] https://arxiv.org/pdf/2505.09766 <br>
 [2] (will edit to include, upon release of conference proceedings)
 
 Dr. Akio Yamamoto’s presentation on the future of reactor physics simulation codes & the future of nuclear education.
